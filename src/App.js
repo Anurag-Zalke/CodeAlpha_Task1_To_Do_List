@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Task Tracker</h1>
+      <h1>To Do List</h1>
       <AddTaskForm addTask={addTask} />
       <div className='filter'>
         <button onClick={() => filterTasks('all')}>All</button>
